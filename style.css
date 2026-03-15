@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    margin:0;
+    padding: 10px;
+    font-weight:bold;
+}
+input{
+    margin-top: 10px;
+    width: 40%;
+    height: 30px;
+}
+.add{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10%;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+}
+li{
+    font-size: 120%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom:2px;
+}
+li button{
+    margin-left: 10px;
+    height: 30px;
+    width: 60px;
+    color:black;
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+}
+.delete:hover{
+    background-color: red;
+    color:white;
+}
+.edit:hover{
+    background-color: yellowgreen;
+    color:white;
+}
+.done:hover{
+    background-color: green;
+    color:white;
+}
+li div{
+    display:flex;
+    gap:6px;
+    margin-left: auto;
+}
